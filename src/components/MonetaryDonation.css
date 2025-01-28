@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9fafc;
+    font-family: "Roboto", Arial, sans-serif;
+  }
+  
+  .donation-container {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .donation-option {
+    margin-bottom: 20px;
+  }
+  
+  .radio-container {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #0e9abd;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  
+  .radio-container input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .radio-container .radio-button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    background: #fff;
+    transform: translateY(-50%);
+  }
+  
+  .radio-container input[type="radio"]:checked + .radio-button {
+    background: #007bff;
+  }
+  
+  .card-details,
+  .mpesa-details {
+    margin-top: 15px;
+    padding-left: 30px;
+  }
+  
+  .card-extra {
+    display: flex;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #1915f3;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px 20px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background: #0056b3;
+  }
